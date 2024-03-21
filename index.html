@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Síguenos en todas las redes como: -->
+<!-- Faster Academy-->
+<!-- Código: Daniel Arteaga de Faster Academy-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <title>Flower</title>
+</head>
+<body>
+
+
+
+<audio id="audio" preload="none" autoplay="autoplay" loop="loop" src="Floricienta.mp3"></audio>
+<button onclick="playSound()" hidden>Reproducir sonido</button>
+
+
+<div class="flower">
+   
+    <div class="text-above">
+      Para ti Mi Amor <br>
+      AJ &#128151 LD
+    </div>
+    <div class="mid">
+    </div>
+    <div class="Petal1 p1">
+    </div>
+    <div class="Petal1 p2">
+    </div>
+    <div class="Petal1 p3">
+    </div>
+    <div class="Petal1 p4">
+    </div>
+    <div class="Petal2 p1">
+    </div>
+    <div class="Petal2 p2">
+    </div>
+    <div class="Petal2 p3">
+    </div>
+    <div class="Petal2 p4">
+    </div>
+    <div class="Petal3 p1">
+    </div>
+    <div class="Petal3 p2">
+    </div>
+    <div class="Petal3 p3">
+    </div>
+    <div class="Petal3 p4">
+    </div>
+    
+    <div class="text-below1">
+        En este 21 de Marzo... En medio de la belleza de las flores amarillas 🌼 
+        quiero recordarte lo especial que eres para mí ❤️ Tu luz ilumina cada 
+        uno de mis días🌞 y tu amor es el más preciado tesoro que tengo ❤️
+        Gracias por ser parte de mi vida y llenarla de alegría y felicidad 😀       
+        
+    </div>
+    
+  </div>
+</body>
+<script>
+  function playSound() {
+    var audio = document.getElementById("audio");
+    audio.play();
+  }  
+  document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        var boton = document.getElementById('audio');
+        boton.click();
+      }, 2000); // 2000 milisegundos = 2 segundos
+    });
+
+    function botonPresionado() {
+      alert('El botón fue presionado automáticamente después de 2 segundos.');
+    }
+</script>
+
+</html>
+<!-- Código: Daniel Arteaga de Faster Academy-->
